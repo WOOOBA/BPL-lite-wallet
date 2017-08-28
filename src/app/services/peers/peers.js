@@ -10,12 +10,43 @@ app.factory('$peers', ($peer, $timeout) => {
     constructor () {
       this.stack = {
         official: [
-          new $peer({ host: 'node1.arknet.cloud', port: null, ssl: true }),
-          new $peer({ host: 'node2.arknet.cloud', port: null, ssl: true }),
+          new $peer({ host: '13.56.163.57', port: 4000, ssl: false }),
+          new $peer({ host: '54.183.132.15', port: 4000, ssl: false }),
+          new $peer({ host: '54.183.69.30', port: 4000, ssl: false }),
+          new $peer({ host: '54.183.152.67', port: 4000, ssl: false }),
+          new $peer({ host: '54.183.22.145', port: 4000, ssl: false }),
+          new $peer({ host: '54.183.209.94', port: 4000, ssl: false }),
+          new $peer({ host: '54.186.13.135', port: 4000, ssl: false }),
+          new $peer({ host: '54.202.194.76', port: 4000, ssl: false }),
+          new $peer({ host: '34.212.0.73', port: 4000, ssl: false }),
+          new $peer({ host: '54.202.119.251', port: 4000, ssl: false }),
+          new $peer({ host: '34.211.228.49', port: 4000, ssl: false }),
+          new $peer({ host: '13.229.63.24', port: 4000, ssl: false }),
+          new $peer({ host: '54.255.255.199', port: 4000, ssl: false }),
+          new $peer({ host: '54.255.170.7', port: 4000, ssl: false })
         ],
         public: [],
         testnet: [
-          // new $peer({ host: '127.0.0.1', port: 4000, ssl: false }),
+          new $peer({ host: '52.66.184.223', port: 4000, ssl: false }),
+          new $peer({ host: '34.211.111.67', port: 4000, ssl: false }),
+          new $peer({ host: '13.59.176.127', port: 4000, ssl: false }),
+          new $peer({ host: '54.175.122.162', port: 4000, ssl: false }),
+          new $peer({ host: '13.126.40.180', port: 4000, ssl: false }),
+          new $peer({ host: '54.93.85.178', port: 4000, ssl: false }),
+          new $peer({ host: '54.246.214.229', port: 4000, ssl: false }),
+          new $peer({ host: '35.182.28.68', port: 4000, ssl: false }),
+          new $peer({ host: '54.153.35.65', port: 4000, ssl: false }),
+          new $peer({ host: '54.252.170.222', port: 4000, ssl: false }),
+          new $peer({ host: '13.124.137.65', port: 4000, ssl: false }),
+          new $peer({ host: '52.78.18.248', port: 4000, ssl: false }),
+          new $peer({ host: '54.206.6.159', port: 4000, ssl: false }),
+          new $peer({ host: '54.183.178.42', port: 4000, ssl: false }),
+          new $peer({ host: '54.241.135.25', port: 4000, ssl: false }),
+          new $peer({ host: '52.60.226.39', port: 4000, ssl: false }),
+          new $peer({ host: '52.60.223.205', port: 4000, ssl: false }),
+          new $peer({ host: '176.34.156.16', port: 4000, ssl: false }),
+          new $peer({ host: '54.154.120.195', port: 4000, ssl: false }),
+          new $peer({ host: '54.93.33.249', port: 4000, ssl: false })
         ]
       }
 
