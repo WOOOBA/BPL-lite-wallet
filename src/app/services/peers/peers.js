@@ -29,8 +29,8 @@ app.factory('$peers', ($peer, $timeout) => {
         testnet: [
           new $peer({ host: '52.66.184.223', port: 9028, ssl: false }),
           new $peer({ host: '34.211.111.67', port: 9028, ssl: false }),
-          new $peer({ host: '13.59.176.127', port: 902890289028, ssl: false }),
-          new $peer({ host: '54.175.122.162', port: 90289028, ssl: false }),
+          new $peer({ host: '13.59.176.127', port: 9028, ssl: false }),
+          new $peer({ host: '54.175.122.162', port: 9028, ssl: false }),
           new $peer({ host: '13.126.40.180', port: 9028, ssl: false }),
           new $peer({ host: '54.93.85.178', port: 9028, ssl: false }),
           new $peer({ host: '54.246.214.229', port: 9028, ssl: false }),
