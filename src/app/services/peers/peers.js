@@ -16,7 +16,7 @@ app.factory('$peers', ($peer, $timeout) => {
           new $peer({ host: '54.183.152.67', port: 9030, ssl: false }),
           new $peer({ host: '54.183.22.145', port: 9030, ssl: false }),
           new $peer({ host: '54.183.209.94', port: 9030, ssl: false }),
-		      new $peer({ host: '54.153.89.97', port: 9030, ssl: false }),
+          new $peer({ host: '54.153.89.97', port: 9030, ssl: false }),
           new $peer({ host: '54.153.120.24', port: 9030, ssl: false }),
           new $peer({ host: '54.67.117.224', port: 9030, ssl: false }),
           new $peer({ host: '54.241.156.232', port: 9030, ssl: false }),
@@ -24,12 +24,12 @@ app.factory('$peers', ($peer, $timeout) => {
           new $peer({ host: '54.67.92.59', port: 9030, ssl: false }),
           new $peer({ host: '54.67.7.8', port: 9030, ssl: false }),
           new $peer({ host: '54.193.96.185', port: 9030, ssl: false }),
-		      new $peer({ host: '54.193.74.250', port: 9030, ssl: false }),
-		      new $peer({ host: '54.67.93.228', port: 9030, ssl: false }),
-		      new $peer({ host: '54.183.21.26', port: 9030, ssl: false }),
+	  new $peer({ host: '54.193.74.250', port: 9030, ssl: false }),
+	  new $peer({ host: '54.67.93.228', port: 9030, ssl: false }),
+	  new $peer({ host: '54.183.21.26', port: 9030, ssl: false }),
           new $peer({ host: '54.153.44.24', port: 9030, ssl: false }),
-		      new $peer({ host: '54.241.140.106', port: 9030, ssl: false }),
-		      new $peer({ host: '54.153.117.209', port: 9030, ssl: false })
+     	  new $peer({ host: '54.241.140.106', port: 9030, ssl: false }),
+      	  new $peer({ host: '54.153.117.209', port: 9030, ssl: false })
         ],
         public: [],
         testnet: [
